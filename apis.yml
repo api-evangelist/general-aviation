@@ -1,8 +1,24 @@
 aid: general-aviation
 name: General Aviation
-description: General Aviation is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: General Aviation is a Y Combinator-backed startup (Spring 2026 batch) building a new air
+  traffic control (ATC) system by connecting aircraft to the internet. Founded by Ben Frank, the company
+  develops remote ATC tower technology aimed at the roughly 90 percent of airports in the U.S. National
+  Airspace System that currently operate without control towers, giving smaller airfields an affordable
+  path to the safety and efficiency benefits of tower services without the cost of traditional tower
+  infrastructure and staffing. As of this profile the company operates a single marketing landing page
+  and publishes no public developer API, documentation, or SDK surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.generalaviation.com/large_logo.png
 url: https://raw.githubusercontent.com/api-evangelist/general-aviation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +28,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Aviation
+- Air Traffic Control
+- Aerospace
+- Connectivity
+- Safety
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/general-aviation-domain-security.yml
+- type: Website
+  url: https://www.generalaviation.com
+- type: Company
+  url: https://www.generalaviation.com/memo
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
