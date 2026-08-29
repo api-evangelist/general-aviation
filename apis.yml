@@ -7,6 +7,17 @@ description: General Aviation is a Y Combinator-backed startup (Spring 2026 batc
   path to the safety and efficiency benefits of tower services without the cost of traditional tower
   infrastructure and staffing. As of this profile the company operates a single marketing landing page
   and publishes no public developer API, documentation, or SDK surface.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
